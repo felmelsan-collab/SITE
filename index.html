@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades sobre mim</title>
+
+    <style>
+        body {
+            background-color: #eaf2f8;
+            font-family: Arial, sans-serif;
+            color: #263445;
+            margin: 0;
+        }
+
+        header {
+            background-color: #183b5b;
+            color: white;
+            text-align: center;
+            padding: 35px;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        main {
+            width: 85%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        section {
+            background-color: white;
+            margin-bottom: 25px;
+            padding: 25px;
+            border-left: 6px solid #2878b5;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #183b5b;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #2878b5;
+        }
+
+        .sobre-mim {
+            text-align: center;
+        }
+
+        .sobre-mim img {
+            width: 200px;
+            border-radius: 10px;
+            border: 4px solid #eaf2f8;
+        }
+
+        .colunas-gostos {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .gosto {
+            background-color: #f0f5f9;
+            padding: 15px;
+            border-radius: 8px;
+            flex: 1;
+        }
+
+        .fe p {
+            line-height: 1.6;
+        }
+
+        .curiosidades ul {
+            columns: 2;
+            line-height: 1.9;
+        }
+
+        .lugar-conteudo {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .lugar-conteudo img {
+            width: 40%;
+            border-radius: 8px;
+        }
+
+        a {
+            color: #176ca5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #183b5b;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Curiosidades sobre mim</h1>
+        <p>Um pouco sobre quem eu sou</p>
+    </header>
+
+    <main>
+
+        <section class="sobre-mim">
+            <img src="img/IMG-20250818-WA0007.jpg.jpeg" alt="Minha foto">
+
+            <h2>Quem sou eu?</h2>
+
+            <p>
+                Meu nome é Felipe Melo, tenho 15 anos e nasci em São Paulo.
+                Atualmente, estudo na ETEC, no curso de Informática para Internet.
+            </p>
+
+            <p>
+                Gosto de jogar futebol, escutar música e passar meu tempo
+                fazendo coisas de que gosto.
+            </p>
+        </section>
+
+        <section class="gostos">
+            <h2>Meus gostos</h2>
+
+            <div class="colunas-gostos">
+
+                <div class="gosto">
+                    <h3> Futebol</h3>
+                    <p>
+                        Gosto muito de jogar futebol e já participei de campeonatos.
+                        Meu time do coração é o São Paulo FC.
+                    </p>
+                    <a href="https://www.saopaulofc.net/" target="_blank">
+                        Site oficial do São Paulo
+                    </a>
+                </div>
+
+                <div class="gosto">
+                    <h3> Música</h3>
+                    <p>
+                        Gosto de escutar Racionais, Charlie Brown Jr., MPB
+                        e também outros estilos musicais.
+                    </p>
+                </div>
+
+                <div class="gosto">
+                    <h3> JOGOS </h3>
+                    <p>
+                        Gosto muito de jogar videogame, principalmente jogos como Fortnite, Batman, Rocket League, FIFA e outros. Gosto bastante de jogos de aventura, futebol, ação e competição. 
+                        
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="fe">
+            <h2> Minha fé</h2>
+
+            <p>
+                Sou católico apostólico romano e a minha fé é importante
+                para mim.
+            </p>
+
+            <p>
+                Sou acólito na Paróquia Santa Gemma Galgani e participo
+                das atividades da Igreja.
+            </p>
+        </section>
+
+        <section class="curiosidades">
+            <h2> Curiosidades sobre mim</h2>
+
+            <ul>
+                <li>Tenho 15 anos.</li>
+                <li>Nasci em São Paulo.</li>
+                <li>Estudo Informática para Internet na ETEC.</li>
+                <li>Gosto muito de jogar futebol.</li>
+                <li>Já participei de campeonatos de futebol.</li>
+                <li>Torço para o São Paulo FC.</li>
+                <li>Gosto de escutar vários estilos de música.</li>
+                <li>Sou fã do Batman.</li>
+                <li>Sou católico apostólico romano.</li>
+                <li>Sou acólito na Paróquia Santa Gemma Galgani.</li>
+            </ul>
+        </section>
+
+        <section class="lugar">
+            <h2>📍 Um lugar que visitei e gostei</h2>
+
+            <div class="lugar-conteudo">
+
+                <img src="img/florianopolis.jpg..png" alt="Florianópolis">
+
+                <div>
+                    <h3>Florianópolis - Santa Catarina</h3>
+
+                    <p>
+                        Um lugar que já visitei e gostei foi Florianópolis,
+                        em Santa Catarina.
+                    </p>
+
+                    <a href="https://visitefloripa.com.br/o-destino/" target="_blank">
+                        Conheça mais sobre Florianópolis
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Minha página pessoal</p>
+    </footer>
+
+</body>
+</html>
